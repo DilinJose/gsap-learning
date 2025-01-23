@@ -31,7 +31,10 @@ const SideBar = () => {
                 <Link to={router.gsapStagger}>G-SAP Stagger</Link>
             </div>
             <div className={linkClass(router.gsapScrollTrigger)}>
-                <Link to={router.gsapScrollTrigger}>G-SAP Stagger</Link>
+                <Link to={router.gsapScrollTrigger}>G-SAP Scroll Trigger</Link>
+            </div>
+            <div className={linkClass(router.gsapTextAnimate)}>
+                <Link to={router.gsapTextAnimate}>G-SAP Text</Link>
             </div>
         </div>
     )

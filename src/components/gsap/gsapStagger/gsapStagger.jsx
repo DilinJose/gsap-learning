@@ -39,7 +39,7 @@ const GsapStagger = () => {
         <div className='w-full flex items-center justify-center flex-col p-4 overflow-y-scroll'>
             <div className='mb-4'>
                 <div className='border-b-2 border-dashed border-red-500 mb-2'>
-                    <h1 className='text-xl font-bold'>fromTo() Method</h1>
+                    <h1 className='text-xl font-bold'>GsapStagger() Method</h1>
                 </div>
                 <p className='text-wrap mb-4'>
                     The <strong>GSAP Stagger</strong>  is a feature that allow you to applay animations with a staggered delay to a group of elements.

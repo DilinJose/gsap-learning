@@ -4,6 +4,7 @@ export const router = {
     gsapToFrom: "/gsaptofrom",
     gsapTimeline: "/gsaptimeline",
     gsapStagger: "/gsapstagger",
-    gsapScrollTrigger: "/gsapscrolltrigger"
+    gsapScrollTrigger: "/gsapscrolltrigger",
+    gsapTextAnimate: "/gsaptextanimate"
 
 }

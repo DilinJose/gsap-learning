@@ -6,6 +6,8 @@ import GsapToFrom from '../components/gsapToFrom/GsapToFrom'
 import GsapFrom from '../components/gsap/gsapFrom/GsapFrom'
 import GsapTimeline from '../components/gsap/gsapTimeline/gsapTimeline'
 import GsapStagger from '../components/gsap/gsapStagger/gsapStagger'
+import GsapScrollTrigger from '../components/gsapScrollTrigger/gsapScrollTrigger'
+import GsapText from '../components/gsap/gsapText/gsapText'
 
 const AppRouters = () => {
     return (
@@ -16,6 +18,8 @@ const AppRouters = () => {
                 <Route path={router.gsapToFrom} element={<GsapToFrom />} />
                 <Route path={router.gsapTimeline} element={<GsapTimeline />} />
                 <Route path={router.gsapStagger} element={<GsapStagger />} />
+                <Route path={router.gsapScrollTrigger} element={<GsapScrollTrigger />} />
+                <Route path={router.gsapTextAnimate} element={<GsapText />} />
             </Routes>
 
         </div>
